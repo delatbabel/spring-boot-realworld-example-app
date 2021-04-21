@@ -1,0 +1,8 @@
+apps:
+  - name: realworld-spring-boot
+    script: /home/del/spring-boot-realworld-example-app/gradlew
+    interpreter: /bin/sh
+    exec_mode: fork
+    instances: 1
+    args:
+      - bootRun
